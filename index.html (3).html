@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all;
+}
+body
+{
+    width:90vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+img{
+    width:150px;
+    height: 150px;
+    box-shadow: 5px 5px 5px black;
+}
+img:hover{
+    transform: scale(1.2);
+}
+    </style>
+
+</head>
+<body>
+    <img class="a" src="">
+    <img class="a"> 
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <img class="a">
+    <script>
+        var images=document.getElementsByClassName("a")
+        for(i=0;i<=images.length;i++)
+        {images[i].setAttribute("src","")}
+
+    </script>
+    
+</body>
+</html>
